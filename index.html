@@ -4,11 +4,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Stuffs</title>
 </head>
 
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: black;
+
+    }
+
+    body {
+        padding: 0 200px;
+        text-align: center;
+    }
+
+    .header {
+        padding-top: 25px;
+        padding-bottom: 50px;
+        color: teal;
+    }
+
+    .blocks-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 0));
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blocks {
+        text-align: center;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        border: 1px solid gainsboro;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    }
+
+    .blocks:hover {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    }
+
+    button {
+        padding: 8px 6px;
+        background: black;
+        color: white;
+        border: none;
+        font-size: 12px;
+        border-radius: 3px;
+    }
+
+    button a {
+
+        color: white;
+    }
+</style>
+
 <body>
-    <h1>Oh, There's nothing here.</h1>
+    <h1 class="header">Web Programming Lab Tasks</h1>
+    <div class="blocks-container">
+        <div class="blocks">
+            <h4>Lab Report 01</h4>
+            <div>
+                <button><a href="https://ahmud-z.github.io/cse302-lab-works/lab-report-1/class-routine/"
+                        target="_blank">Class
+                        Routine</a></button>
+                <button><a href="https://ahmud-z.github.io/cse302-lab-works/lab-report-1/login-form/"
+                        target="_blank">Login
+                        Form</a></button>
+            </div>
+        </div>
+        <div class="blocks">
+            <h4>Lab Report 02</h4>
+            <div>
+                <button><a href="#">Empty</a></button>
+                <button><a href="#">Empty</a></button>
+            </div>
+        </div>
+        <div class="blocks">
+            <h4>Lab Report 03</h4>
+            <div>
+                <button><a href="#">Empty</a></button>
+                <button><a href="#">Empty</a></button>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
