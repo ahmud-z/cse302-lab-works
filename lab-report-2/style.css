@@ -9,7 +9,7 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
     gap: 15px;
     row-gap: 30px;
 }
@@ -25,15 +25,12 @@ body {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
-
-
-
-.desig {
+.details {
     text-align: left;
     font-size: 15px;
+    height: 120px;
     color: rgb(70, 70, 70);
-    padding-left: 10px;
-    padding-bottom: 20px;
+    padding: 0 8px;
 }
 
 button {
@@ -45,18 +42,7 @@ button {
     cursor: pointer;
 }
 
-
-img{
+img {
     width: 100%;
-}
-
-.b-border{
-    height: 8px;
-    background: green;
-}
-
-.img-wrapper:hover {
-    transform: scale(1.08);
-    display: inline-block;
-    transition: all .3s;
+    border-bottom: 8px solid #4BB748;
 }
