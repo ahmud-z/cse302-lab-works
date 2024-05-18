@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: teal;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding: 20px 30px 30px 30px;
+}
+
+.demo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.option-container select {
+    padding: 14.5px 8px;
+    font-size: 16px;
+}
+
+.container #inputValue {
+    padding: 15px 18px;
+    font-size: 16px;
+}
+
+.container .btn {
+    padding: 10px 12px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    background: black;
+    border-radius: 4px;
+}
+
+.container .btn:hover {
+    background: rgb(56, 56, 56);
+}
+
+.container .btn:active {
+    opacity: .5;
+}
+
+.result {
+    font-size: 16px;
+    color: aliceblue;
+    padding: 2px 0;
+}
+
+.result-div {
+    background: none;
+    background: whitesmoke;
+    height: 120px;
+    color: black;
+    padding: 10px 5px;
+    font-size: 16px;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 0 20px 0;
+}
